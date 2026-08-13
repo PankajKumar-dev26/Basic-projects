@@ -1,0 +1,77 @@
+/* #region RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/* #endregion */
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+h3{
+  color: black;
+  text-align: center;
+}
+
+.color-boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.color-boxes button{
+  width: 100px;
+  height: 100px;
+  border: 1.5px solid black;
+  outline: none;
+  cursor: pointer;
+}
+
+.color-boxes button:nth-child(1){
+  background-color: grey;
+}
+.color-boxes button:nth-child(2){
+  background-color: white;
+}
+.color-boxes button:nth-child(3){
+  background-color: blue;
+}
+.color-boxes button:nth-child(4){
+  background-color: yellow;
+}
+.color-boxes button:nth-child(5){
+  background-color: purple;
+}

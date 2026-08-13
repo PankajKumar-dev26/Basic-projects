@@ -1,0 +1,51 @@
+body{
+  background-color: grey;
+  color: black;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 35px 25px 0 25px;
+}
+
+.container > input{
+  max-width: 150px;
+  padding: 4px 12px;
+  border-radius: 5px;
+  outline: none;
+  border: 1.5px solid black;
+  cursor: pointer;
+  margin-left: 105px;
+  color: black;
+  background-color: white;
+}
+
+.input > input{
+  background-color: white;
+  border: 1px solid black;
+  outline: none;
+  color: black;
+  padding: 4px;
+  height: 25px;
+}
+
+.guide{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-left: 95px;
+  height: 100vh;
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 80px;
+  font-size: 1.3rem;
+  color: white;
+  margin-left: 95px;
+}
